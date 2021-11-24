@@ -74,7 +74,12 @@ const App = () => {
                     <span className="font-bold">Word Count:</span> {word_count}
                   </li>
                 </ul>
-                <a href={web_url} target="_blank" className="underline">
+                <a
+                  href={web_url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underline"
+                >
                   Web Resource
                 </a>
               </article>
